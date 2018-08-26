@@ -1,0 +1,78 @@
+﻿body {
+    margin:0;
+    padding:0;
+    width:100%;
+    background-image:url(../background-image.jpg);
+}
+
+#exceptionErrorMessage, #timeleftInfo, #timeSection {
+    text-align: center;
+    margin: 0px;
+}
+#exceptionErrorMessage {
+    color: #D8000C;
+    background-color: #FFBABA;
+    font-size: 22px;
+    font-weight: bold;
+    opacity:0.45;
+}
+#timeleftInfo {
+    color: #206020;
+    font-size: 30px;
+    font-weight: 200;
+    text-shadow: 2px 2px 2px #1b1e24;
+}
+#timeSection {
+    font-weight: 900;
+    font-size: 90px;
+    color: #001a00;
+    text-shadow: 2px 2px 2px #1b1e24;
+}
+
+#welcome {
+    color: #001a00;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #1b1e24;
+    font-size: 40px;
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    width: 58%;
+}
+input[type="time"] {
+    font-weight: bold;
+    font-size: 60px;
+    opacity: 0.5;
+    margin: 20px 0px 15px;
+}
+input[type="time"]:focus {
+    background-color: #003333;
+}
+
+#setButton, #clearButton {
+    padding:10px 28px;
+    font-size:25px;
+    margin:0px 2px;
+    border:none;
+    opacity:0.5;
+    color:white;
+    font-weight:500;
+}
+#setButton:hover, #clearButton:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition-property:all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+#setButton:active, #clearButton:active {
+    box-shadow: 10px 10px 50px #888888;
+} 
+#setButton {
+    background-color: #4CAF50;
+}
+#clearButton {
+    background-color: #9b0000;
+}

@@ -1,0 +1,33 @@
+﻿{
+  "author": "Mikheil Aleksidze",
+  "description": "User friendly & easy to use alarm clock Chrome application",
+
+  "name": "MegaClock",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  "app": {
+    "launch": {
+      //Using a hosted website
+      //"web_url": ""
+
+      //Using a local .html webpage (without hosting)
+      "local_path": "index.html",
+      "container": "panel"
+    }
+  },
+
+  "icons": {
+    "16": "Icons/icon16.png",
+    "48": "Icons/icon48.png",
+    "96": "Icons/icon96.png",
+    "128": "Icons/icon128.png"
+  },
+
+  "homepage_url": "https://github.com/Mikheil-A/MegaClock",
+
+  "permissions": [
+    "notifications"
+    //"alarms"
+  ]
+}

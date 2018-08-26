@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>MegaClock</title>
+    <meta charset="utf-8" />
+    <link href="alarm.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="alarm">
+        <p id="exceptionErrorMessage"></p>
+        <h1 id="timeleftInfo">
+            <span>The alarm will fire in </span>
+            <span id="timeSection">
+                <span id="h"></span><span id="colon1">:</span><span id="m"></span><span id="colon2">:</span><span id="s"></span>
+            </span>
+        </h1>
+
+        <!--Plays the sound when the notification is displayed-->
+        <!--<audio id="notifAudio" src="Sounds/notify.wav"></audio>-->
+
+        <h1 id="welcome">Set an alarm</h1>
+        <form>
+            <input id="timeInputField" type="time" step="1" />
+            <br />
+            <input id="setButton" type="button" value="Set Alarm!" />
+            <input id="clearButton" type="button" value="Clear" />
+        </form>
+    </div>
+
+    <script src="Scripts/alarm.js"></script>
+    <script src="Scripts/window.js"></script>
+</body>
+</html>
