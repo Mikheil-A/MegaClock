@@ -17,3 +17,4 @@ Watch [this](https://www.youtube.com/watch?v=a9sQMWgivDc) short video tutorial a
 ## Screenshots
 ![](https://github.com/Mikheil-A/MegaClock/blob/master/Screenshots/1.png)
 ![](https://github.com/Mikheil-A/MegaClock/blob/master/Screenshots/2.png)
+![](https://github.com/Mikheil-A/MegaClock/blob/master/Screenshots/macOS3.png)
